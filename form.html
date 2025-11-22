@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- form tag -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- action mein vo URL jota hai jaha pr data store hoga agar kuch URL nhi hai toh "#" daalenge -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Full_name">Full Name : </label>
+            <input type="text" id="Full_name" name="fullName">
+            <br><br>
+            <label for="email">E-mail : </label>
+            <input type="email" id="email" name="Email">
+            <br><br>
+            <label for="Password">Password :</label>
+            <input type="password" id="Password" name="pass">
+            <br><br>
+            <label for="num">Phone Number : </label>
+            <input type="tel" name="Phone" id="num">
+            <br><br>
+            <label for="website">Website / Portfolio : </label>
+            <input type="url" id="website" name="Website">
+        </fieldset>
+        <fieldset>
+            <legend>Additional Details</legend>
+            <label for="dob">Date of birth : </label>
+            <input type="date" id="dob" name="DOB" min="2006-01-01" max="2025-10-01">
+            <br><br>
+            <label for="experience">Year of experience</label>
+            <input type="number" id="experience" name="Years_of_experience" min="5">
+            <br><br>
+            <label for="Skill">Skill Level(0-100) : </label>
+            <input type="range" id="Skill" name="Level" min="1" max="100" value="40">
+            <br><br>
+            <label for="bio">Short Bio : </label>
+            <br>
+            <textarea name="Bio" id="bio" placeholder="Tell us about yourself.."></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <p>Contact Method :</p>
+            <label for="phone">Phone</label>
+            <input type="radio" id="phone" name="contact">
+            <label for="skack">Slack</label>
+            <input type="radio" id="slack" name="contact">
+            <label for="mail">E-mail</label>
+            <input type="radio" id="mail" name="contact">
+            <br><br>
+            <p>Country :</p>
+            <select name="country" id="cn">
+                <option value="">--Select country--</option>
+                <option value="In">India</option>
+                <option value="Us">United States of America</option>
+                <option value="Eng">England</option>
+                <option value="Ng">Nigeria</option>
+            </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form> 
+     
+
+</body>
+</html>

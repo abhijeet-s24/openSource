@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <form action="#" method="post">
+        <h1>Feedback Form></form></h1>
+        <fieldset>
+            <legend>Your experience</legend>
+            <p>How would you rate your overall experience?</p>
+            <label for="excellent">Excellent</label>
+            <input type="radio" id="excellent" name="rate"><br>
+            <label for="good">Good</label>
+            <input type="radio" id="good" name="rate"><br>
+            <label for="poor">Poor</label>
+            <input type="radio" id="poor" name="rate"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Features Used</legend>
+            <p>Which features did you use?(Select all that apply)</p>
+            <input type="checkbox" id="dashboard" name="dashboard">
+            <label for="dashboard">Dashboard</label><br>
+            <input type="checkbox" id="report" name="report">
+            <label for="report">Reports</label><br>
+            <input type="checkbox" id="support" name="support">
+            <label for="support">Coustomer Support</label>
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <p>How did you hear about us?</p>
+            <select name="option" id="option">
+                <option value="">--Please chose an option--</option>
+                <option value="online">Online</option>
+                <option value="friend">Friend</option>
+            </select>
+            <textarea name="message" id="message" placeholder="Type your feedback here ...">Any additional comments</textarea>
+        </fieldset>
+        <button type="submit">Submit feedback</button>
+    </form>
+</body>
+</html>

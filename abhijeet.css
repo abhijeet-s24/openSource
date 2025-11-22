@@ -1,0 +1,23 @@
+/* h1{
+    color: blue;
+}
+
+/* p{
+    color: brown;
+ } */
+body{
+    background-color: yellow;
+}
+
+/* *{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    padding: 0;
+    margin: 0;
+ } */
+marquee{
+    text-align: center;
+}
+.hello{
+    color: blue;
+}
